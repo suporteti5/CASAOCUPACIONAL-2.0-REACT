@@ -166,7 +166,7 @@ const Clinicas = () => {
               <UserCard
                 float
                 href={
-                  "https://www.google.com/maps/place/Av.+Pres.+Vargas,+542+-+1315+-+Centro,+Rio+de+Janeiro+-+RJ,+20071-000/@-22.9014949,-43.183466,17z/data=!3m1!4b1!4m5!3m4!1s0x997f5c68e5d6b1:0x39c0154b5b313b5d!8m2!3d-22.9014949!4d-43.1812773s"
+                  "https://www.google.com/maps/place/Shopping+Nova+Am%C3%A9rica/@-22.8778046,-43.2740671,17z/data=!3m1!4b1!4m6!3m5!1s0x997d18e80c4569:0xc62bd5a1dabb0de5!8m2!3d-22.8778046!4d-43.2714868!16s%2Fg%2F1238mfs0?entry=ttu",
                 }
                 target="_blank"
                 header={NaIMG}
