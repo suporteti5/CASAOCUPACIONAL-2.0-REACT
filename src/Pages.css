@@ -1,0 +1,133 @@
+/* PAGE CLINICAS */
+
+.container-clinica {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    justify-content: space-evenly;
+}
+
+.content-clinica {
+    margin: 40px;
+}
+
+.content-clinica p, .content-clinica h2 {
+    text-align: center;
+    margin: 0 0 10px 10px
+}
+
+.content-clinica p {
+    font-size: 20px;
+}
+
+#buttons-clinica-page {
+    color: #fff;
+    background-color: #0B4575;
+    border-color: #0B4575;
+    margin: 10px;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 35%;
+}
+
+#ul-dialog-clinica-page {
+    padding: 0;
+}
+
+.li-dialog-clinica-page {
+    list-style: none;
+    margin: 10px 0;
+    color: #777777;
+}
+
+#alert-dialog-title-clinica-page {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.location-clinicas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.src-UserCard-UserCardBody-styles-module__user-card-body--xMttR {
+    padding-top: 25px !important;
+}
+
+.src-UserCard-UserCardBody-styles-module__user-card-body--xMttR .src-UserCard-UserCardBody-styles-module__user-card-name--lMiwl {
+    margin: 0;
+    color: #000 !important;
+    padding: 10px;
+}
+
+.src-UserCard-UserCardBody-styles-module__user-card-body--xMttR .src-UserCard-UserCardBody-styles-module__user-card-position-name--slXtz {
+    text-align: center;
+    color: #000 !important;
+}
+
+.src-Card-styles-module__card--9xEbS {
+    background-color: #cfcfcf !important;
+}
+
+.buttons {
+    text-align: center;
+}
+
+/* Page Form */
+
+.form-title {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 30px 0 0 0;
+}
+
+.form-section {
+    background-image: url('./Assets//IMGS/bg.png');
+}
+
+.form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.form-questions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+#alertForm {
+    display: none;
+    margin: 30px 0 !important;
+}
+
+#form-submit {
+    margin: 20px 0;
+}
+
+.ServicosInteresseOptions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+}
+
+
+@media (max-width: 850px) {
+
+    /* PAGE FORMS */
+
+    .form-questions {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
