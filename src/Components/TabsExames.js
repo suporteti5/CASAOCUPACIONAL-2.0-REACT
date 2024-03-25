@@ -77,7 +77,7 @@ export default function TabsExames() {
       title: "Audiometria",
       icon: <FaAssistiveListeningSystems />,
       paragraph:
-        "​O exame de espirometria ocupacional é um dos mais importantes para diagnosticar males respiratórios relacionados ao trabalho. Por isso, o teste aparece em Programas de Controle Médico de Saúde Ocupacional (PCMSO) de trabalhadores que desempenham diversas atividades econômicas, fornecendo dados essenciais para evitar agravos à sua saúde.",
+        "É um exame que avalia o grau de audição do ser humano, voltado especificamente para trabalhadores que são submetidos a ambientes barulhentos com risco de perda funcional do sentido da audição. É chamado audiometria ocupacional porque está relacionado com o trabalho, com a ocupação do colaborador dentro da empresa.",
       paragraphSeccond: "Pré-Requisitos",
       listItem: {
         1: " Repouso Auditivo de 16H",
@@ -152,7 +152,7 @@ export default function TabsExames() {
     <>
       <section className="section-exams">
         <h1>Exames</h1>
-        <Box sx={{ width: "60%", margin: "50px auto" }} id="box-tabs-exames" >
+        <Box sx={{ width: "60%", margin: "50px auto" }} id="box-tabs-exames">
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs
               value={value}
@@ -206,21 +206,22 @@ export default function TabsExames() {
                     <DialogContent>
                       <DialogContentText id="alert-dialog-description">
                         <p>
-                          Clínica Barra da Tijuca: <br /> segundas - sextas.
+                          Clínica Barra da Tijuca: <br /> Segunda | Quarta |
+                          Sexta.
                           <br />
-                          Horários: 08:00 - 12:00.
+                          Horários: 08:00 - 17:00.
                         </p>
                         <hr />
                         <p>
                           Clínica Nova América: <br />
-                          Terças e Quintas. <br />
-                          Horários: 08:00 - 12:00.
+                          Terças | Quintas. <br />
+                          Horários: 08:00 - 17:00.
                         </p>
                         <hr />
                         <p>
                           Clínica Centro:
                           <br /> Segunda - Sexta. <br />
-                          Horários: 08:00 - 12:00.
+                          Horários: 08:00 - 17:00.
                         </p>
                       </DialogContentText>
                     </DialogContent>

@@ -22,7 +22,6 @@ const FooterPage = () => {
           </p>
         </div>
         <div className="footer-content1">
-          <h6>Empresas parceiras</h6>
           <p>
             <a
               className="span-footer"
@@ -30,25 +29,6 @@ const FooterPage = () => {
               target="_blank"
             >
               CASA OCUPACIONAL MARKETPLACE LTDA - CNPJ: 43.868.655/0001-99
-            </a>
-          </p>
-          <p>
-            <a
-              className="span-footer"
-              href="https://www.agendatecnica.com.br/"
-              target="_blank"
-            >
-              AGENDA TECNICA SISTEMAS DE SEGURANCA E SAUDE DO TRABALHADOR LTDA -
-              CNPJ: 10.642.576/0001-06
-            </a>
-          </p>
-          <p>
-            <a
-              className="span-footer"
-              href="https://ammarhes.com.br/"
-              target="_blank"
-            >
-              AMMARHES CONS.SEG. MED.TRAB.QSMS - CNPJ: 08.218.809/0001-04
             </a>
           </p>
           <p>
