@@ -29,17 +29,13 @@
 }
 
 .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
-    width: 35%;
+    width: 25%;
 }
 
-#ul-dialog-clinica-page {
-    padding: 0;
-}
 
-.li-dialog-clinica-page {
-    list-style: none;
+.p-dialog-clinica-page {
+    text-align: center;
     margin: 10px 0;
-    color: #777777;
 }
 
 #alert-dialog-title-clinica-page {

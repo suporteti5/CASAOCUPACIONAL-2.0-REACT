@@ -10,10 +10,11 @@ const Welcome = () => {
             <br /> CASA OCUPACIONAL
           </p>
           <p className="welcome-content-paragraph">
-            Ao nosso ecossistema de saúde ocupacinal, fruto de 30 anos de
-            experiencia de seus fundadores e 15 anos ininterruptos de atividades
-            em diversas marcas. Tudo em um só lugar passa a ser nosso lema de
-            atendimento, porém com áreas muito especificas de atendimento
+            Nosso ecossistema de saúde ocupacional, resultado de 30 anos de
+            experiência de nossos fundadores e 15 anos de atividades contínuas
+            em diversas marcas, oferece uma abordagem integrada para atender às
+            suas necessidades. Nosso lema é proporcionar tudo em um só lugar,
+            embora com áreas de atendimento altamente especializadas.
           </p>
         </div>
         <div className="hours-open-container">

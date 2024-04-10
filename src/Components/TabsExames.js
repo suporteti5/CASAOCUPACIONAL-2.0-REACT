@@ -76,8 +76,23 @@ export default function TabsExames() {
     {
       title: "Audiometria",
       icon: <FaAssistiveListeningSystems />,
-      paragraph:
-        "É um exame que avalia o grau de audição do ser humano, voltado especificamente para trabalhadores que são submetidos a ambientes barulhentos com risco de perda funcional do sentido da audição. É chamado audiometria ocupacional porque está relacionado com o trabalho, com a ocupação do colaborador dentro da empresa.",
+      paragraph: (
+        <>
+          O exame de acuidade visual é amplamente utilizado na medicina do
+          trabalho, tanto em exames admissionais quanto demissionais e de
+          rotina. <br />
+          <br />
+          Ele analisa se o indivíduo apresenta algum déficit de visão que possa
+          representar riscos para si mesmo, para outros colegas de trabalho e
+          para o patrimônio da empresa. <br />
+          <br />
+          Problemas como redução da visão periférica, perda da discriminação de
+          cores e incapacidade de adaptação à luz, contraste ou brilho podem
+          resultar em baixa acuidade visual. <br />
+          <br />É essencial realizar esse exame de forma regular para garantir a
+          segurança e a saúde no ambiente de trabalho.
+        </>
+      ),
       paragraphSeccond: "Pré-Requisitos",
       listItem: {
         1: " Repouso Auditivo de 16H",
@@ -87,8 +102,20 @@ export default function TabsExames() {
     {
       title: "Acuidade Visual",
       icon: <FaEye />,
-      paragraph:
-        "O exame de acuidade visual é bastante utilizado na medicina do trabalho, em exames admissionais e demissionais e de rotina, analisando se a pessoa possui (ou não) déficit de visão que poderia causar riscos a ele mesmo, a outros trabalhadores e ao patrimônio da empresa. A baixa acuidade visual pode resultar de um decréscimo da visão periférica, da perda da visão das cores, da incapacidade ou perda de aptidão do olho para se ajustar à luz, contraste ou brilho.",
+      paragraph: (
+        <>
+          {" "}
+          O exame de acuidade visual é bastante utilizado na medicina do
+          trabalho, em exames admissionais e demissionais e de rotina,
+          analisando se a pessoa possui (ou não) déficit de visão que poderia
+          causar riscos a ele mesmo, a outros trabalhadores e ao patrimônio da
+          empresa.
+          <br />
+          <br /> A baixa acuidade visual pode resultar de um decréscimo da visão
+          periférica, da perda da visão das cores, da incapacidade ou perda de
+          aptidão do olho para se ajustar à luz, contraste ou brilho.
+        </>
+      ),
       paragraphSeccond: "Pré-Requisitos",
       listItem: {
         1: " Exames com Hora Marcada",
@@ -97,8 +124,18 @@ export default function TabsExames() {
     {
       title: "Laboratóriais",
       icon: <FaFlask />,
-      paragraph:
-        "Os exames laboratoriais mais comuns em saúde ocupacional são: Glicemia de jejum; Hemograma completo; EAS (Urina tipo 1); Parasitológico de Fezez (PPF); Gama GT; Hepatites A, B e C; PSA; Beta HCG; Colesterol total; HDL; LDL; VLDL; VDRL; Ácido Urico; Coprocultura; Creatinina; entre outros, de acordo com a função e risco nela existente.",
+      paragraph: (
+        <>
+          Na saúde ocupacional, diversos exames laboratoriais são frequentemente
+          realizados para avaliar a saúde dos colaboradores. Entre os mais
+          comuns, destacam-se: Glicemia de jejum, Hemograma completo, EAS (Urina
+          tipo 1), Parasitológico de Fezes (EPF), Gama GT, Hepatites A, B e C,
+          PSA, Beta HCG, Colesterol total, HDL, LDL, VLDL, VDRL, Ácido úrico,
+          Coprocultura e Creatinina. <br />
+          <br />A seleção dos exames é feita de acordo com a função desempenhada
+          e os riscos associados à atividade.
+        </>
+      ),
       paragraphSeccond: "Pré - Requisitos",
       listItem: {
         1: " Exames com Hora Marcada",
@@ -108,8 +145,30 @@ export default function TabsExames() {
     {
       title: "Eletrocardiograma",
       icon: <FaHeartbeat />,
-      paragraph:
-        "Eletrocardiograma, ou como também é conhecido, ECG, é um exame que avalia a atividade elétrica do coração a partir de eletrodos fixados na pele. O resultado deste exame é registrado em gráficos que comparam a atividade cardíaca do paciente com o padrão, indicando se a atividade cardíaca está dentro da normalidade ou se há alterações nos músculos e nervos do coração. Esse exame é realizado em um aparelho – o eletrocardiógrafo. Esse aparelho registra as alterações de potencial elétrico entre dois pontos do corpo, gerando uma imagem linear, em ondas de padrão rítmico, as quais têm significações clínicas particulares reconhecidas pelo cardiologista.",
+      paragraph: (
+        <>
+          Tire suas dúvidas sobre o eletrocardiograma (ECG), um exame essencial
+          para avaliar a saúde do coração.
+          <br />
+          <br /> O eletrocardiograma é um procedimento que analisa a atividade
+          elétrica do coração por meio de eletrodos colocados na pele. <br />
+          <br />
+          Os resultados são registrados em gráficos que comparam a atividade
+          cardíaca do paciente com padrões normais, identificando possíveis
+          alterações nos músculos e nervos cardíacos.
+          <br />
+          <br /> Esse exame é realizado com um aparelho específico, chamado
+          eletrocardiógrafo, que registra as variações de potencial elétrico
+          entre diferentes pontos do corpo, produzindo uma representação visual
+          em forma de ondas.
+          <br />
+          <br />
+          Esses padrões são interpretados pelo cardiologista para detectar
+          quaisquer problemas cardíacos. <br />
+          <br />
+          Agende seu eletrocardiograma conosco e cuide da saúde do seu coração.
+        </>
+      ),
       paragraphSeccond: "Pré-Requisitos",
       listItem: {
         1: " Exames com Hora Marcada",
@@ -118,8 +177,22 @@ export default function TabsExames() {
     {
       title: "Eletroencefalograma",
       icon: <FaBrain />,
-      paragraph:
-        "​O eletroencefalograma (EEG) ocupacional é um teste de diagnóstico que monitora a atividade elétrica cerebral do trabalhador, a fim de descartar distúrbios neurológicos ou de consciência. Trata-se de um teste simples, rápido, indolor e não invasivo, que avalia os impulsos elétricos durante alguns minutos e gera gráficos de linha. O procedimento é realizado com a fixação de eletrodos no couro cabeludo do empregado, que colhem dados sobre as ondas mentais e os enviam a um monitor, que pode ser analógico ou digital.",
+      paragraph: (
+        <>
+          O eletroencefalograma (EEG) ocupacional é um exame diagnóstico
+          utilizado para monitorar a atividade elétrica cerebral de
+          trabalhadores, visando descartar possíveis distúrbios neurológicos ou
+          de consciência. <br />
+          <br />
+          Trata-se de um procedimento simples, rápido, indolor e não invasivo,
+          que registra os impulsos elétricos cerebrais em gráficos de linha.{" "}
+          <br />
+          <br />
+          Durante o exame, eletrodos são fixados no couro cabeludo do paciente,
+          coletando dados sobre as ondas mentais que são então enviados para
+          análise em um monitor, podendo ser analógico ou digital.
+        </>
+      ),
       paragraphSeccond: "Pré - Requisitos",
       listItem: {
         1: " Exames com Hora Marcada",
@@ -129,8 +202,25 @@ export default function TabsExames() {
     {
       title: "Raio X",
       icon: <FaXRay />,
-      paragraph:
-        "​O Rx de tórax OIT é um exame específico para acompanhamento de doenças ocupacionais relacionadas ao trabalho.",
+      paragraph: (
+        <>
+          O Rx de tórax OIT é um exame específico utilizado para acompanhar
+          possíveis doenças ocupacionais relacionadas ao trabalho. <br />
+          <br />
+          Além deste, existem outros tipos de exames de raio-X que podem ser
+          realizados para diversos fins, como diagnóstico de lesões,
+          identificação de fraturas, avaliação de condições pulmonares, entre
+          outros. <br />
+          <br /> É importante ressaltar que a realização desses exames deve ser
+          feita sob a orientação de um profissional de saúde qualificado, a fim
+          de garantir resultados precisos e apropriados para cada situação.
+          <br />
+          <br />
+          Entre em contato conosco para saber mais sobre os diferentes tipos de
+          exames de raio-X disponíveis e como eles podem ser úteis para sua
+          saúde e segurança ocupacional.
+        </>
+      ),
       paragraphSeccond: "Pré-Requisitos",
       listItem: {
         1: " Exames com Hora Marcada",
@@ -139,8 +229,16 @@ export default function TabsExames() {
     {
       title: "Espirometria",
       icon: <FaLungs />,
-      paragraph:
-        "​O exame de espirometria ocupacional é um dos mais importantes para diagnosticar males respiratórios relacionados ao trabalho. Por isso, o teste aparece em Programas de Controle Médico de Saúde Ocupacional (PCMSO) de trabalhadores que desempenham diversas atividades econômicas, fornecendo dados essenciais para evitar agravos à sua saúde.",
+      paragraph: (
+        <>
+          O exame de espirometria ocupacional é crucial para diagnosticar
+          condições respiratórias relacionadas ao ambiente de trabalho. <br />
+          <br /> Este teste é frequentemente incluído nos Programas de Controle
+          Médico de Saúde Ocupacional (PCMSO) de trabalhadores de diversas
+          áreas, fornecendo informações vitais para prevenir danos à saúde dos
+          colaboradores.
+        </>
+      ),
       paragraphSeccond: "Pré-Requisitos",
       listItem: {
         1: " Exames com Hora Marcada",

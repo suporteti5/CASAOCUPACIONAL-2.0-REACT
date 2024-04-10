@@ -79,8 +79,6 @@ export default function TabsExames() {
       title: "Rio de Janeiro",
       icon: <img src={RJ} alt="Icone dos estados" />,
       id: 1,
-      paragraph:
-        "Nosso objetivo é garantir acesso fácil e conveniente aos nossos serviços em todas as regiões. Visando sempre o melhor atendimento e comodidade, estamos presentes nos seguintes locais:",
       listItem: [
         "Centro",
         "Campo Grande",
@@ -241,6 +239,12 @@ export default function TabsExames() {
     <>
       <section className="section-city" id="city">
         <h1>Locais de Atendimento</h1>
+        <p className="section-city-p">
+          Nossa missão é proporcionar acesso fácil e conveniente aos nossos
+          serviços em todas as regiões. Comprometidos com o melhor atendimento e
+          comodidade para nossos clientes, estamos presentes nos seguintes
+          locais:
+        </p>
         <Box sx={{ width: "60%", margin: "50px auto" }} id="box-tab-citys">
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs
@@ -266,7 +270,6 @@ export default function TabsExames() {
             <div className="tabs-container" key={item.id}>
               <CustomTabPanel value={value} index={i}>
                 <p className="title-tabs">{item.title}</p>
-                <p className="paragraph-tabs">{item.paragraph}</p>
                 <ul className="list-tabs" id="tabs-citys">
                   {Object.values(item.listItem).map((listItem, index) => (
                     <li

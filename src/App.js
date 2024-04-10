@@ -25,8 +25,8 @@ function App() {
           <Route path="/clinicas" element={<Clinicas />} />
         </Routes>
         <ScrollToTopButton />
-        <Footer />
-      </BrowserRouter>
+{        <Footer />
+}      </BrowserRouter>
     </>
   );
 }

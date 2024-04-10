@@ -19,8 +19,8 @@ const teste = () => {
     return (
       <animated.div>
         {n == 15
-          ? number.to((n) => n.toFixed(0).replace(".", ","))
-          : number.to((n) => n.toFixed(3).replace(".", ","))}
+          ? number.to((n) => n.toFixed(0))
+          : number.to((n) => n.toFixed(3))}
       </animated.div>
     );
   };

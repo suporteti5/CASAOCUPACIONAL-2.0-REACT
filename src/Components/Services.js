@@ -11,7 +11,6 @@ import DialogTitle from "@mui/material/DialogTitle";
 /* ICONS */
 
 import { FaFolder } from "react-icons/fa";
-import { FaProjectDiagram } from "react-icons/fa";
 import { FaAmbulance } from "react-icons/fa";
 import { FaStethoscope } from "react-icons/fa";
 import { FaEnvira } from "react-icons/fa";
@@ -19,54 +18,139 @@ import { FaEnvira } from "react-icons/fa";
 const Services = () => {
   const CardsMessage = [
     {
-      icon: <FaProjectDiagram />,
+      icon: <FaFolder />,
       title: "Controle legal de Terceiros e Quarteirizados",
       content:
-        "Gerenciamos todos os documentos essenciais para os trabalhos de risco de seus terceirizados e .",
-      contentFull:
-        "Gerenciamos todos os documentos essenciais para os trabalhos de risco de seus terceirizados e quarteirizados, proporcionando-lhe tranquilidade. Reforçamos a recomendação de evitar a terceirização ou quarteirização em sua empresa, negócio ou condomínio sem a realização prévia de estudos e monitoramento adequados. Essa abordagem é crucial para identificar quais documentos e treinamentos são necessários, garantindo uma operação segura e em conformidade com as normas vigentes.",
+        "Temos expertise em gerenciar todos os documentos cruciais para as atividades de risco de seus.",
+      contentFull: (
+        <>
+          Temos expertise em gerenciar todos os documentos cruciais para as
+          atividades de risco de seus terceirizados e quarteirizados.
+          <br />
+          <br />
+          Reforçamos a importância de evitar terceirizações ou quarteirizações
+          em sua empresa, negócio ou condomínio sem realizar estudos e
+          monitoramentos adequados.
+          <br />
+          <br />
+          Essa abordagem é vital para identificar os documentos e treinamentos
+          necessários, assegurando uma operação segura e em conformidade com as
+          normas vigentes.
+          <br />
+          <br />
+          Entre em contato conosco para uma consultoria especializada e proteja
+          seu empreendimento contra potenciais riscos.
+        </>
+      ),
     },
     {
       icon: <FaStethoscope />,
       title: "Exames e Consultas",
       content:
-        "Realizamos consultas clínicas e com especialistas em diversas modalidades. Para mais informações sobre.",
-      contentFull:
-        "Realizamos consultas clínicas e com especialistas em diversas modalidades. Para mais informações sobre uma clínica específica ou consultório, recomendamos consultar a página dedicada a cada um deles.",
+        "Oferecemos uma variedade de consultas clínicas e especializadas em diversas modalidades. Para.",
+      contentFull: (
+        <>
+          Oferecemos uma variedade de consultas clínicas e especializadas em
+          diversas modalidades.
+          <br />
+          <br />
+          Para obter informações mais detalhadas sobre cada uma de nossas
+          clínicas ou consultórios, sugerimos visitar as páginas dedicadas a
+          cada serviço.
+        </>
+      ),
     },
     {
       icon: <FaAmbulance />,
       title: "Ambulatório Médico",
       content:
-        "Realizamos a Gestão de Ambulatório dentro das empresas, através de práticas e procedimentos modernos.",
-      contentFull:
-        "Realizamos a gestão de ambulatório dentro das empresas, empregando práticas e procedimentos modernos com o objetivo de reduzir o absenteísmo. Oferecemos essa gestão com ou sem fornecimento de mão de obra, proporcionando soluções adaptadas às necessidades específicas de cada cliente.",
+        "Oferecemos serviços de gestão de ambulatório empresarial, utilizando práticas modernas e eficazes.",
+      contentFull: (
+        <>
+          Oferecemos serviços de gestão de ambulatório empresarial, utilizando
+          práticas modernas e eficazes para combater o absenteísmo.
+          <br />
+          <br />
+          Nossa abordagem flexível inclui opções com ou sem fornecimento de mão
+          de obra, adaptando-se às demandas individuais de cada cliente.
+          <br />
+          <br />
+          Conte conosco para soluções personalizadas que promovem um ambiente de
+          trabalho mais saudável e produtivo.
+        </>
+      ),
     },
     {
       icon: <FaEnvira />,
       title: "Monitoramento Ambiental",
       content:
-        "Realizamos todos os tipos de monitoramentos ambientais e Ocupacionais.",
-      contentFull:
-        "Realizamos todos os tipos de monitoramentos ambientais e Ocupacionais.",
+        "Oferecemos uma ampla gama de serviços de monitoramento ambiental e ocupacional.",
+      contentFull: (
+        <>
+          Oferecemos uma ampla gama de serviços de monitoramento ambiental e
+          ocupacional, abrangendo todas as necessidades e exigências
+          regulatórias.
+          <br />
+          <br />
+          Nossa equipe especializada realiza uma variedade de monitoramentos
+          para garantir a segurança e o cumprimento das normas, proporcionando
+          tranquilidade e conformidade aos nossos clientes.
+        </>
+      ),
     },
     {
       icon: <FaFolder />,
       title: "PCMSO",
       content:
-        "Realizamos Exames Admissionais, Periódicos e Demissionais em todos os estados do Brasil seja por meio.",
-      contentFull:
-        "Realizamos Exames Admissionais, Periódicos e Demissionais em todos os estados do Brasil, seja por meio de clínicas próprias ou convênios. Oferecemos a opção de administração por vida, assegurando responsabilidade técnica, ou elaboramos apenas os documentos necessários, conforme a preferência do cliente.",
+        "Oferecemos serviços completos de Saúde Ocupacional, incluindo Exames Admissionais, Periódicos.",
+      contentFull: (
+        <>
+          Oferecemos serviços completos de Saúde Ocupacional, incluindo Exames
+          Admissionais, Periódicos e Demissionais, em todo o território
+          brasileiro.
+          <br />
+          <br />
+          Contamos com clínicas próprias e parcerias em diversos estados.
+          <br />
+          <br />
+          Proporcionamos flexibilidade aos clientes, oferecendo a opção de
+          administração contínua, garantindo responsabilidade técnica, ou
+          elaborando apenas os documentos necessários, conforme a preferência de
+          cada cliente.
+          <br />
+          <br />
+          Nossa equipe está comprometida em garantir a conformidade com o
+          eSocial e todas as normas de segurança do trabalho vigentes.
+        </>
+      ),
     },
     {
       icon: <FaFolder />,
       title: "PPP, LTCAT, Perícias",
       content:
-        "Oferecemos o gerenciamento completo de todos os documentos essenciais para os trabalhos de .",
-      contentFull:
-        "Oferecemos o gerenciamento completo de todos os documentos essenciais para os trabalhos de risco de seus terceirizados e quarteirizados, proporcionando-lhe tranquilidade. Reforçamos a recomendação de evitar a terceirização ou quarteirização em sua empresa, negócio ou condomínio sem a realização prévia de estudos e monitoramento adequados. Essa abordagem é crucial para identificar os documentos e treinamentos necessários, garantindo uma operação segura e em conformidade com as normas vigentes.",
+        "Oferecemos um serviço abrangente de gerenciamento de documentos essenciais para as.",
+      contentFull: (
+        <>
+          Oferecemos um serviço abrangente de gerenciamento de documentos
+          essenciais para as operações de terceirizados e quarteirizados,
+          proporcionando-lhe total tranquilidade.
+          <br />
+          <br />
+          É altamente recomendável evitar a terceirização ou quarteirização em
+          sua empresa, negócio ou condomínio sem a devida análise prévia e
+          monitoramento constante.
+          <br />
+          <br />
+          Essa abordagem é fundamental para identificar os documentos e
+          treinamentos necessários, assegurando uma operação segura e em
+          conformidade com as normas vigentes.
+          <br />
+          <br />
+          Conte conosco para garantir a segurança e o cumprimento das exigências
+          legais em seu ambiente de trabalho.
+        </>
+      ),
     },
-    ,
   ];
 
   const [openDialogs, setOpenDialogs] = useState(
@@ -118,7 +202,7 @@ const Services = () => {
 
                         <DialogContent>
                           <DialogContentText className="alert-dialog-description">
-                            {item.contentFull}   
+                            {item.contentFull}
                           </DialogContentText>
                         </DialogContent>
                         <DialogActions>

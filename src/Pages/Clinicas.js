@@ -15,16 +15,8 @@ import NaIMG from "../Assets/IMGS/nova-america.jpg";
 import DimensionIMG from "../Assets/IMGS/dimension.jpg";
 import CentroIMG from "../Assets/IMGS/uruguaiana.jpg";
 
-const ButtonComponent = () => {
-  const exames = [
-    "Audiometria",
-    "Visual",
-    "laboratoriais",
-    "Eletrocardiograma",
-    "Eletroencefalograma",
-    "Raio-X",
-    "Espirometria",
-  ];
+const ButtonComponent = (props) => {
+  const exames = [];
 
   const [openDialogs, setOpenDialogs] = useState(
     Array(exames.length).fill(false)
@@ -61,13 +53,7 @@ const ButtonComponent = () => {
 
           <DialogContent>
             <DialogContentText id="alert-dialog-clinica-page">
-              <ul id="ul-dialog-clinica-page">
-                {exames.map((item, i) => (
-                  <li className="li-dialog-clinica-page" key={i}>
-                    - {item}
-                  </li>
-                ))}
-              </ul>
+              {props.exames}
             </DialogContentText>
           </DialogContent>
           <DialogActions>
@@ -84,11 +70,8 @@ const ButtonComponent = () => {
   );
 };
 
-const ButtonHorariosComponent = () => {
-  const exames = [
-    "Segunda - Sexta:   07:00 - 17:00",
-    " Sábado - Domingo:    FECHADO",
-  ];
+const ButtonHorariosComponent = (props) => {
+  const exames = [];
 
   const [openDialogs, setOpenDialogs] = useState(
     Array(exames.length).fill(false)
@@ -125,13 +108,7 @@ const ButtonHorariosComponent = () => {
 
           <DialogContent>
             <DialogContentText id="alert-dialog-clinica-page">
-              <ul id="ul-dialog-clinica-page">
-                {exames.map((item, i) => (
-                  <li className="li-dialog-clinica-page" key={i}>
-                    {item}
-                  </li>
-                ))}
-              </ul>
+              {props.horario}
             </DialogContentText>
           </DialogContent>
           <DialogActions>
@@ -158,8 +135,31 @@ const Clinicas = () => {
               <h2>Clinica Nova America</h2>
               <p>Cuidando do seu bem estar</p>
               <div className="buttons">
-                <ButtonComponent />
-                <ButtonHorariosComponent />
+                <ButtonComponent
+                  exames={
+                    <p>
+                      Audiometria
+                      <br />
+                      Visual
+                      <br />
+                      laboratoriais
+                      <br />
+                      Eletrocardiograma
+                      <br />
+                      Eletroencefalograma
+                      <br />
+                      Espirometria
+                    </p>
+                  }
+                />
+                <ButtonHorariosComponent
+                  horario={
+                    <p className="p-dialog-clinica-page">
+                      Ter: 08hrs - 17hrs <br />
+                      Qui: 08hrs - 17hrs <br />
+                    </p>
+                  }
+                />
               </div>
             </div>
             <div className="location-clinicas">
@@ -194,8 +194,36 @@ const Clinicas = () => {
               <h2>Clinica Centro</h2>
               <p>Cuidando do seu bem estar</p>
               <div className="buttons">
-                <ButtonComponent />
-                <ButtonHorariosComponent />
+                <ButtonComponent
+                  exames={
+                    <p>
+                      Audiometria
+                      <br />
+                      Visual
+                      <br />
+                      laboratoriais
+                      <br />
+                      Eletrocardiograma
+                      <br />
+                      Eletroencefalograma
+                      <br />
+                      Raio-X
+                      <br />
+                      Espirometria
+                    </p>
+                  }
+                />
+                <ButtonHorariosComponent
+                  horario={
+                    <p className="p-dialog-clinica-page">
+                      Seg: 08hrs - 17hrs <br />
+                      Ter: 08hrs - 17hrs <br />
+                      Qua: 08hrs - 17hrs <br />
+                      Qui: 08hrs - 17hrs <br />
+                      Sex: 08hrs - 17hrs <br />
+                    </p>
+                  }
+                />
               </div>
             </div>
           </div>
@@ -207,8 +235,34 @@ const Clinicas = () => {
               <h2>Clinica Barra da Tijuca</h2>
               <p>Cuidando do seu bem estar</p>
               <div className="buttons">
-                <ButtonComponent />
-                <ButtonHorariosComponent />
+                <ButtonComponent
+                  exames={
+                    <p>
+                      Audiometria
+                      <br />
+                      Visual
+                      <br />
+                      laboratoriais
+                      <br />
+                      Eletrocardiograma
+                      <br />
+                      Eletroencefalograma
+                      <br />
+                      Raio-X
+                      <br />
+                      Espirometria
+                    </p>
+                  }
+                />
+                <ButtonHorariosComponent
+                  horario={
+                    <p className="p-dialog-clinica-page">
+                      Seg: 08hrs - 17hrs <br />
+                      Qua: 08hrs - 17hrs <br />
+                      Sex: 08hrs - 17hrs <br />
+                    </p>
+                  }
+                />
               </div>
             </div>
             <div className="location-clinicas">
