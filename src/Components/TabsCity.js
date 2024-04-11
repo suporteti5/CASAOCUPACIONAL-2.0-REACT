@@ -192,7 +192,7 @@ export default function TabsExames() {
       id: 11,
       paragraph:
         "Nosso objetivo é garantir acesso fácil e conveniente aos nossos serviços em todas as regiões. Visando sempre o melhor atendimento e comodidade, estamos presentes nos seguintes locais:",
-      listItem: ["Jõao Pessoa"],
+      listItem: ["João Pessoa"],
     },
     {
       title: "Rio Grande do Norte",
