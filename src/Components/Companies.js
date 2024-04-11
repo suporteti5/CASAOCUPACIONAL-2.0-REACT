@@ -11,6 +11,7 @@ const AlterarNome = () => {
     <>
       <section className="companies-section">
         <div className="companies-container">
+          <h1>Conheça Nossas Empresas</h1>
           <div className="companies-logos-container">
             <div className="logo-link">
               <a target="_blank" href="https://ammarhes.com.br/">

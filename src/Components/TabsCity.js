@@ -68,6 +68,7 @@ export default function TabsExames() {
   const handleClose = () => {
     setOpen(false);
   };
+
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -186,7 +187,7 @@ export default function TabsExames() {
       listItem: ["Maceió"],
     },
     {
-      title: "Paraiba",
+      title: "Paraíba",
       icon: <img src={PB} alt="Icone dos estados" />,
       id: 11,
       paragraph:
@@ -210,7 +211,7 @@ export default function TabsExames() {
       listItem: ["Belo Horizonte", "Lavras"],
     },
     {
-      title: "Ceara",
+      title: "Ceará",
       icon: <img src={CE} alt="Icone dos estados" />,
       id: 14,
       paragraph:
@@ -218,15 +219,15 @@ export default function TabsExames() {
       listItem: ["Fortaleza", "Crateus", "Sobral"],
     },
     {
-      title: "Parana",
+      title: "Paraná",
       icon: <img src={PR} alt="Icone dos estados" />,
       id: 15,
       paragraph:
         "Nosso objetivo é garantir acesso fácil e conveniente aos nossos serviços em todas as regiões. Visando sempre o melhor atendimento e comodidade, estamos presentes nos seguintes locais:",
-      listItem: ["Curitiba", "Parana"],
+      listItem: ["Curitiba", "Paraná"],
     },
     {
-      title: "Para",
+      title: "Pará",
       icon: <img src={PA} alt="Icone dos estados" />,
       id: 16,
       paragraph:

@@ -117,6 +117,14 @@ nav {
     padding: 1px;
 }
 
+.companies-container h1 {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin: 30px 0;
+    font-size: 28px;
+}
+
 .companies-logos-container {
     display: flex;
     align-items: center;
@@ -353,6 +361,28 @@ nav {
     width: 81%;
 }
 
+/* FORM CONTACT */
+
+.form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.form-title {
+    text-align: center;
+    padding: 20px;
+}
+
+#alertForm {
+    display: none;
+    margin: 30px 0 !important;
+}
+
+#form-submit {
+    margin-top: 10px;
+}
+
+
 /* FOOTER */
 
 footer {
@@ -447,7 +477,7 @@ footer {
     opacity: 0.9;
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 1315px) {
 
     .top-menu-container {
         display: none;
@@ -487,6 +517,22 @@ footer {
         border-bottom: solid 1px #247BA0;
         color: #247BA0;
     }
+
+    /* footer */
+
+    .footer-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1220px) {
 
     /* TABS CITYS */
 
@@ -545,4 +591,13 @@ footer {
     #tabs-item-city {
         width: 100%;
     }
+
+
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
 }

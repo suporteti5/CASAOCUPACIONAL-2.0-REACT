@@ -52,6 +52,15 @@ const Navbar = () => {
       link: "/orcamento",
     },
     {
+      text: "Contato",
+      icon: (
+        <IconContext.Provider value={{ size: "25px" }}>
+          <PhoneRoundedIcon />
+        </IconContext.Provider>
+      ),
+      link: "/contato",
+    },
+    {
       text: "Locais de Atendimento",
       icon: (
         <IconContext.Provider value={{ size: "25px" }}>
@@ -154,6 +163,7 @@ const Navbar = () => {
         <div className="navbar-links-container">
           <Link to="/clinicas">Clínicas</Link>
           <Link to="/orcamento">Faça seu Orçamento</Link>
+          <Link to="/contato">Contato</Link>
           <Link to="/atendimento">Locais de Atendimento</Link>
           <a
             href="https://www.agendatecnica.com.br/v2/login.asp"

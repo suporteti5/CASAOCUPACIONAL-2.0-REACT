@@ -26,7 +26,7 @@ const Welcome = () => {
                 <div> 07:30 - 17:30 </div>
               </li>
               <li>
-                <span> Sabado - Domingo </span>
+                <span> Sábado - Domingo </span>
                 <div> FECHADO </div>
               </li>
             </ul>

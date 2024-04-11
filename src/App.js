@@ -10,6 +10,7 @@ import ScrollToTopButton from "./Components/ScrollButton";
 /* Pages */
 import Homepage from "./Pages/Homepage";
 import FormOrcamento from "./Pages/FormsOrcamento";
+import FormsContact from "./Pages/FormsContact";
 import Atendimento from "./Pages/Atendimento";
 import Clinicas from "./Pages/Clinicas";
 
@@ -22,11 +23,12 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/atendimento" element={<Atendimento />} />
           <Route path="/orcamento" element={<FormOrcamento />} />
+          <Route path="/contato" element={<FormsContact />} />
           <Route path="/clinicas" element={<Clinicas />} />
         </Routes>
         <ScrollToTopButton />
-{        <Footer />
-}      </BrowserRouter>
+        {<Footer />}{" "}
+      </BrowserRouter>
     </>
   );
 }

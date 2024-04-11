@@ -3,6 +3,7 @@ import React from "react";
 /* Icons */
 
 import { IoIosMail } from "react-icons/io";
+import { FaPhoneAlt } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -17,8 +18,8 @@ const FooterPage = () => {
         <div className="footer-content">
           <img src={logoCasa} alt="Logo Casa" />
           <p>
-            Buscamos disponibilidade, soluções completas em segurança, saúde em
-            meio... ao nosos clientes.
+            Buscamos disponibilidade e soluções completas em segurança e saúde
+            ocupacional ao nossos clientes.
           </p>
         </div>
         <div className="footer-content1">
@@ -36,6 +37,24 @@ const FooterPage = () => {
             <a href="mailto:comercial@ammarhes.com.br">
               Comercial:
               <span className="span-footer"> comercial@ammarhes.com.br</span>
+            </a>
+          </p>
+          <p>
+            <FaPhoneAlt />
+            <a className="span-footer" href="tel:+552135491640">
+              +55 (21) 3549-1640
+            </a>
+          </p>
+          <p>
+            <FaPhoneAlt />
+            <a className="span-footer" href="tel:+552120260011">
+              +55 (21) 2026-0011
+            </a>
+          </p>
+          <p>
+            <FaPhoneAlt />
+            <a className="span-footer" href="tel:+552122629752">
+              +55 (21) 2262-9752
             </a>
           </p>
         </div>
