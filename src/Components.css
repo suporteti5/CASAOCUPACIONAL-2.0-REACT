@@ -375,7 +375,7 @@ nav {
 
 #alertForm {
     display: none;
-    margin: 30px 0 !important;
+    padding: 30px 0 !important;
 }
 
 #form-submit {
