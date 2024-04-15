@@ -8,6 +8,8 @@ import CheckIcon from "@mui/icons-material/Check";
 
 const FormsOrcamento = () => {
   const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const [formData, setFormData] = useState({
     businessSector: "",
     city: "",
@@ -59,6 +61,7 @@ const FormsOrcamento = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     console.log("Formulário em processo de envio:", formData);
 
     try {
@@ -83,6 +86,8 @@ const FormsOrcamento = () => {
     } catch (error) {
       document.getElementById("alertForm").style.display = "block";
       setAlertVisible(false);
+    }finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -345,13 +350,13 @@ const FormsOrcamento = () => {
             onChange={handleCaptchaVerify}
             onExpired={handleCaptchaExpire}
           />
-          <Button
+             <Button
             variant="primary"
             type="submit"
             id="form-submit"
-            disabled={!isCaptchaVerified}
+            disabled={!isCaptchaVerified || isSubmitting}
           >
-            Enviar Pedido de Orçamento
+            {isSubmitting ? "Enviando..." : "Enviar"}
           </Button>
         </Form>
         <div id="alertForm">
