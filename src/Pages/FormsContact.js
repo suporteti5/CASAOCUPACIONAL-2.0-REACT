@@ -61,6 +61,8 @@ const Contact = () => {
     } catch (error) {
       document.getElementById("alertForm").style.display = "block";
       setAlertVisible(false);
+    }finally {
+      setIsSubmitting(false);
     }
   };
 
