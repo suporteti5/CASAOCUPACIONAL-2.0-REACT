@@ -1,7 +1,7 @@
 import React from "react";
 
 /* Images */
-import Agenda from "../Assets/Logos/LogoAgenda.png";
+import Aso from "../Assets/Logos/LogoAso.png";
 import Casa from "../Assets/Logos/LogoCasa.png";
 import Saude10 from "../Assets/Logos/LogoSaude10.png";
 import LogoAmmarhesWrite from "../Assets/Logos/LogoAmmarhesWrite.png";
@@ -47,16 +47,17 @@ const AlterarNome = () => {
               </a>
             </div>
             <div className="logo-link">
-              <a target="_blank" href="https://www.agendatecnica.com.br/">
+              <a target="_blank" href="https://asoonline.com.br/">
                 <img
-                  className="companies-logos-imgs"
-                  src={Agenda}
-                  alt="Logo Agenda Técnica"
+                  className="other-companies-logos-Imgs"
+                  src={Aso}
+                  alt="Logo Aso"
+                  id="asoIMG"
                 />
               </a>
               <a
                 target="_blank"
-                href="https://www.agendatecnica.com.br/"
+                href="https://www.asoonline.com.br/"
                 className="logo-link-button"
               >
                 Clique e Acesse

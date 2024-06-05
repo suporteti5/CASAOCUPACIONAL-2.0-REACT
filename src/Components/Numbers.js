@@ -18,7 +18,7 @@ const teste = () => {
     });
     return (
       <animated.div>
-        {n == 15
+        {n === 15
           ? number.to((n) => n.toFixed(0))
           : number.to((n) => n.toFixed(3))}
       </animated.div>

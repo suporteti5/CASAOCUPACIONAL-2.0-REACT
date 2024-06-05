@@ -35,7 +35,7 @@ const Contact = () => {
   const [alertVisible, setAlertVisible] = useState(null);
 
   const handleSubmit = async (e) => {
-    e.preventDefault();        
+    e.preventDefault();
     setIsSubmitting(true);
     console.log("Formulário em processo de envio:", formData);
 
@@ -61,8 +61,8 @@ const Contact = () => {
     } catch (error) {
       document.getElementById("alertForm").style.display = "block";
       setAlertVisible(false);
-    }finally {
-      setIsSubmitting(false);
+    } finally {
+      setIsSubmitting(false); // Finaliza o estado de envio do formulário, independente do resultado
     }
   };
 
